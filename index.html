@@ -11,6 +11,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper-bundle.css">
+    <script defer src="js/swiper-bundle.js"></script>
+    <script defer src="js/main.js"></script>
     <title>Batman</title>
 </head>
 <body>
@@ -37,11 +40,21 @@
                     <img src="img/facebook.svg" alt="facebook">
                 </a>
             </div>
+            <div class="header__nav-mobile">
+                <a href="#">Описание</a>
+                <a href="#">Трейлер</a>
+                <a href="#">Отзывы</a>
+            </div>
+            <div class="header__menu-close">
+                <img src="img/menu-button-close.svg" alt="">
+            </div>
         </div>
     </header>
-
     <main class="main">
         <div class="container">
+            <div class="menu-burger">
+                <img src="img/burger.svg" alt="">
+            </div>
             <div class="main__rating">
                 <div class="main__rating-title">2022, боевик, триллер</div>
                 <div class="main__rating-wrap">
@@ -82,10 +95,52 @@
 
             </div>
             <h1 class="main__header">Бэтмен</h1>
-            <div class="main__description">
-                После двух лет поисков правосудия на улицах Готэма для своих сограждан Бэтмен становится олицетворением беспощадного возмездия. Когда в городе происходит серия жестоких нападений на представителей элиты, загадочные улики приводят Брюса Уэйна в самые темные закоулки преступного мира. Теперь под прицелом оказывается сам Бэтмен.
+            <div class="main__description-wrap">
+                <div class="main__description">
+                    После двух лет поисков правосудия на улицах Готэма для своих сограждан Бэтмен становится олицетворением беспощадного возмездия. Когда в городе происходит серия жестоких нападений на представителей элиты, загадочные улики приводят Брюса Уэйна в самые темные закоулки преступного мира. Теперь под прицелом оказывается сам Бэтмен.
+                </div>
+                <div class="main__button-play">
+                    <div class="main__button-dark">
+                        <img src="img/arrow-play.svg" alt="">
+                    </div>
+                </div>
             </div>
             <a href="#" class="main__button">Купить билеты</a>
+            <div class="main-slider__wrap">
+                <div class="main-slider swiper">
+                    <div class="swiper-wrapper">
+                        <div class="main-slider__slide swiper-slide">
+                            <img src="img/slide1.jpg" alt="slide1">
+                            <span>Трейлер #1</span>
+                        </div>
+                        <div class="main-slider__slide swiper-slide">
+                            <img src="img/slide2.jpg" alt="slide2">
+                            <span>Трейлер #2</span>
+                        </div>
+                        <div class="main-slider__slide swiper-slide">
+                            <img src="img/slide1.jpg" alt="slide1">
+                            <span>Трейлер #3</span>
+                        </div>
+                        <div class="main-slider__slide swiper-slide">
+                            <img src="img/slide2.jpg" alt="slide2">
+                            <span>Трейлер #4</span>
+                        </div>
+                        <div class="main-slider__slide swiper-slide">
+                            <img src="img/slide1.jpg" alt="slide1">
+                            <span>Трейлер #5</span>
+                        </div>
+                        <div class="main-slider__slide swiper-slide">
+                            <img src="img/slide2.jpg" alt="slide2">
+                            <span>Трейлер #6</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-slider__arrow">
+                    <img src="img/arrow-slider.svg" alt="">
+                </div>
+            </div>
+            <iframe class="spotify__vidget" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5j4j82E0tmyspUrbBSdC16?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
         </div>
     </main>
 
